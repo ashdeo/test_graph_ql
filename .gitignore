@@ -1,0 +1,28 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# Ignore environment-specific files
+.env
+
+# Ignore system or editor-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore test reports and logs
+/allure-report/
+/html-reports/
+/metadata.json
+
+# Ignore log files
+logs/
+log.txt
